@@ -1,5 +1,8 @@
 # Portfolio
 
+![CI/CD](https://github.com/kai119/portfolio/workflows/CI/CD/badge.svg)
+[![Coverage](https://codecov.io/gh/kai119/portfolio/branch/master/graph/badge.svg)](https://codecov.io/gh/kai119/portfolio)
+
 This Project serves as a webpage to present and demonstrate the development skills that I have learned throughout my career.
 
 ## Available Scripts
