@@ -4,10 +4,13 @@
   "private": true,
   "homepage": "https://kai119.github.io/portfolio",
   "dependencies": {
+    "@nextui-org/system": "^2.0.15",
+    "@nextui-org/theme": "^2.1.17",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "eslint": "^8.56.0",
+    "framer-motion": "^10.17.9",
     "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
