@@ -5,6 +5,8 @@
 
 This Project serves as a webpage to present and demonstrate the development skills that I have learned throughout my career.
 
+To access the site, [click here](https://kai119.github.io/portfolio/)
+
 ## Available Scripts
 
 In the project directory, you can run:
