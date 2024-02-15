@@ -1,6 +1,6 @@
 # Portfolio
 
-![CI/CD](https://github.com/kai119/portfolio/workflows/CI/CD/badge.svg?branch=main)
+![CI/CD](https://github.com/kai119/portfolio/actions/workflows/node.js.yml/badge.svg?branch=main)
 [![Coverage](https://codecov.io/gh/kai119/portfolio/graph/badge.svg?token=JXKZE2SC3H)](https://codecov.io/gh/kai119/portfolio)
 
 This Project serves as a webpage to present and demonstrate the development skills that I have learned throughout my career.
