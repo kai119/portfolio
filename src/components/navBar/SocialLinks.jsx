@@ -9,9 +9,9 @@ import {
 } from "@mui/material";
 import React from "react";
 import "./SocialLinks.css";
-import EmailSvg from "./EmailIcon.svg";
-import GithubSvg from "./GithubIcon.svg";
-import LinkedinSvg from "./LinkedinIcon.svg";
+import EmailSvg from "../../assets/EmailIcon.svg";
+import GithubSvg from "../../assets/GithubIcon.svg";
+import LinkedinSvg from "../../assets/LinkedinIcon.svg";
 
 function SocialLinks(props) {
   const theme = useTheme();
@@ -40,14 +40,14 @@ function SocialLinks(props) {
           <Card
             key={"icon-card-" + index}
             sx={{
-              width: props.cardSize,
-              height: props.cardSize,
               background: theme.palette.card.main,
               boxShadow: 2,
             }}
           >
             <CardActionArea
               sx={{
+                width: props.cardSize,
+                height: props.cardSize,
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",

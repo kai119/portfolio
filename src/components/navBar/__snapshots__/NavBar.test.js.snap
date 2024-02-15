@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with default props 1`] = `
+<header
+  class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-18cj5n6-MuiPaper-root-MuiAppBar-root"
+>
+  <div
+    class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 css-1mwms0u-MuiGrid2-root"
+  >
+    <div
+      class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-3 css-p4z6b7-MuiGrid2-root"
+    >
+      <div
+        class="css-70qvj9"
+      >
+        <div
+          class="MuiAvatar-root MuiAvatar-circular css-82kfkh-MuiAvatar-root"
+        >
+          <img
+            alt="Kai Mumford"
+            class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+            src="/img/avatar.png"
+          />
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1fsb6jx-MuiTypography-root"
+        >
+          Kai Mumford
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-9 css-1n7csrm-MuiGrid2-root"
+    >
+      <div
+        style="display: flex; justify-content: flex-end; height: 100%;"
+      >
+        <div />
+      </div>
+    </div>
+  </div>
+</header>
+`;

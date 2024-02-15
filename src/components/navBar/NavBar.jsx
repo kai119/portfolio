@@ -18,6 +18,7 @@ import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import HamburgerIcon from "./HamburgerIcon";
 import SocialLinks from "./SocialLinks";
+import KaiCV from "../../assets/Kai_Mumford_CV.pdf"
 
 export default function NavBar() {
   const theme = useTheme();
@@ -123,20 +124,26 @@ export default function NavBar() {
                   alignItems: "center",
                 }}
               >
-                <CardActionArea>
-                  <CardContent>
-                    <Typography
-                      sx={{
-                        width: "60px",
-                        display: "flex",
-                        justifyContent: "center",
-                      }}
-                      color="primary"
-                    >
-                      Resume
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
+                <a
+                  href={KaiCV}
+                  download
+                  target="_self"
+                >
+                  <CardActionArea>
+                    <CardContent>
+                      <Typography
+                        sx={{
+                          width: "60px",
+                          display: "flex",
+                          justifyContent: "center",
+                        }}
+                        color="primary"
+                      >
+                        Resume
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </a>
               </Card>
             </div>
           )}
@@ -209,6 +216,7 @@ export default function NavBar() {
                       {pageLink.charAt(0).toUpperCase() + pageLink.slice(1)}
                     </Link>
                   ))}
+
                   <Card
                     sx={{
                       background: theme.palette.card.main,
@@ -220,18 +228,24 @@ export default function NavBar() {
                       alignItems: "center",
                     }}
                   >
-                    <CardActionArea>
-                      <CardHeader
-                        title="Resume"
-                        titleTypographyProps={{
-                          color: "primary",
-                          variant: "body1",
-                        }}
-                        sx={{
-                          color: "primary",
-                        }}
-                      />
-                    </CardActionArea>
+                    <a
+                      href={KaiCV}
+                      download="Test_PDF"
+                      target="_self"
+                    >
+                      <CardActionArea>
+                        <CardHeader
+                          title="Resume"
+                          titleTypographyProps={{
+                            color: "primary",
+                            variant: "body1",
+                          }}
+                          sx={{
+                            color: "primary",
+                          }}
+                        />
+                      </CardActionArea>
+                    </a>
                   </Card>
                 </Box>
                 <Divider
