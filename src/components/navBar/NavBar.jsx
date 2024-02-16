@@ -88,6 +88,7 @@ export default function NavBar() {
             >
               {pageLinks.map((pageLink) => (
                 <Link
+                  data-testid={"navBar-desktop-pageLink-" + pageLink}
                   onClick={() => setSelectedSection(pageLink)}
                   variant="body1"
                   onMouseEnter={() => setCurrentHover(pageLink)}
@@ -156,12 +157,14 @@ export default function NavBar() {
               }}
             >
               <HamburgerIcon
+                data-testid="hamburger-icon"
                 open={drawerOpen}
                 onClick={() => setDrawerOpen(!drawerOpen)}
               />
               <Drawer
                 anchor="right"
                 open={drawerOpen}
+                data-testid="navBar-drawer"
                 sx={{
                   zIndex: 1,
                 }}
@@ -189,6 +192,7 @@ export default function NavBar() {
                 >
                   {pageLinks.map((pageLink) => (
                     <Link
+                      data-testid={"navBar-mobile-pageLink-" + pageLink}
                       onClick={() => {
                         setSelectedSection(pageLink);
                         setDrawerOpen(false);
