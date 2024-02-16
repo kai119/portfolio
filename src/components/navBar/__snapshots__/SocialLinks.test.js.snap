@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`correctly adjusts the width and height of the icon based on props 1`] = `
+<div
+  class="MuiBox-root css-u6v8er"
+>
+  <h6
+    class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+  >
+    Find me on
+  </h6>
+  <div
+    class="MuiBox-root css-1lm37yk"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        >
+          <span
+            aria-hidden="true"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+          >
+            <img
+              alt="Social media icon"
+              data-testid="icon-img0"
+              height="50px"
+              src="LinkedinIcon.svg"
+              width="50px"
+            />
+          </span>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        >
+          <span
+            aria-hidden="true"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+          >
+            <img
+              alt="Social media icon"
+              data-testid="icon-img1"
+              height="50px"
+              src="GithubIcon.svg"
+              width="50px"
+            />
+          </span>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        >
+          <span
+            aria-hidden="true"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+          >
+            <img
+              alt="Social media icon"
+              data-testid="icon-img2"
+              height="50px"
+              src="EmailIcon.svg"
+              width="50px"
+            />
+          </span>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders with default props 1`] = `
+<div
+  class="MuiBox-root css-u6v8er"
+>
+  <h6
+    class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+  >
+    Find me on
+  </h6>
+  <div
+    class="MuiBox-root css-1lm37yk"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        >
+          <span
+            aria-hidden="true"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+          >
+            <img
+              alt="Social media icon"
+              data-testid="icon-img0"
+              height="24px"
+              src="LinkedinIcon.svg"
+              width="24px"
+            />
+          </span>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        >
+          <span
+            aria-hidden="true"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+          >
+            <img
+              alt="Social media icon"
+              data-testid="icon-img1"
+              height="24px"
+              src="GithubIcon.svg"
+              width="24px"
+            />
+          </span>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <div
+          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        >
+          <span
+            aria-hidden="true"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+          >
+            <img
+              alt="Social media icon"
+              data-testid="icon-img2"
+              height="24px"
+              src="EmailIcon.svg"
+              width="24px"
+            />
+          </span>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

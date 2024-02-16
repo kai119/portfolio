@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Desktop screen testing renders with default props 1`] = `
+<header
+  class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-17wuhg6-MuiPaper-root-MuiAppBar-root"
+>
+  <div
+    class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 css-1mwms0u-MuiGrid2-root"
+  >
+    <div
+      class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-3 css-p4z6b7-MuiGrid2-root"
+    >
+      <div
+        class="css-70qvj9"
+      >
+        <div
+          class="MuiAvatar-root MuiAvatar-circular css-82kfkh-MuiAvatar-root"
+        >
+          <img
+            alt="Kai Mumford"
+            class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+            src="/img/avatar.png"
+          />
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-pm0sp9-MuiTypography-root"
+        >
+          Kai Mumford
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-9 css-1n7csrm-MuiGrid2-root"
+    >
+      <div
+        style="display: flex; justify-content: flex-end; align-items: center; height: 100%; transition: all .5s ease;"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-body1 MuiLink-root MuiLink-underlineNone css-1u7zqiv-MuiTypography-root-MuiLink-root"
+          data-testid="navBar-desktop-pageLink-home"
+          href="#home"
+        >
+          Home
+        </a>
+        <a
+          class="MuiTypography-root MuiTypography-body1 MuiLink-root MuiLink-underlineNone css-1u7zqiv-MuiTypography-root-MuiLink-root"
+          data-testid="navBar-desktop-pageLink-experience"
+          href="#experience"
+        >
+          Experience
+        </a>
+        <a
+          class="MuiTypography-root MuiTypography-body1 MuiLink-root MuiLink-underlineNone css-1u7zqiv-MuiTypography-root-MuiLink-root"
+          data-testid="navBar-desktop-pageLink-projects"
+          href="#projects"
+        >
+          Projects
+        </a>
+        <a
+          class="MuiTypography-root MuiTypography-body1 MuiLink-root MuiLink-underlineNone css-1u7zqiv-MuiTypography-root-MuiLink-root"
+          data-testid="navBar-desktop-pageLink-contact"
+          href="#contact"
+        >
+          Contact
+        </a>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-86l623-MuiPaper-root-MuiCard-root"
+        >
+          <a
+            download=""
+            href="Kai_Mumford_CV.pdf"
+            target="_self"
+          >
+            <button
+              class="MuiButtonBase-root MuiCardActionArea-root css-1oitmrd-MuiButtonBase-root-MuiCardActionArea-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-6h3lsr-MuiTypography-root"
+                >
+                  Resume
+                </p>
+              </div>
+              <span
+                class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+              />
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Mobile screen testing opens the menu drawer when hamburger icon is clicked 1`] = `
+<header
+  class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-17wuhg6-MuiPaper-root-MuiAppBar-root"
+>
+  <div
+    class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 css-1mwms0u-MuiGrid2-root"
+  >
+    <div
+      class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-3 css-p4z6b7-MuiGrid2-root"
+    >
+      <div
+        class="css-70qvj9"
+      >
+        <div
+          class="MuiAvatar-root MuiAvatar-circular css-82kfkh-MuiAvatar-root"
+        >
+          <img
+            alt="Kai Mumford"
+            class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+            src="/img/avatar.png"
+          />
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-pm0sp9-MuiTypography-root"
+        >
+          Kai Mumford
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-9 css-1n7csrm-MuiGrid2-root"
+    >
+      <div
+        style="display: flex; justify-content: flex-end; height: 100%;"
+      >
+        <div
+          class="icons"
+          data-testid="icons-container"
+        >
+          <svg
+            class="active"
+            data-testid="hamburger-svg"
+            height="32px"
+            viewBox="0 0 32 42"
+            width="32px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              transform="matrix(1,0,0,1,-389.5,-264.004)"
+            >
+              <g
+                id="arrow_left2"
+              >
+                <g
+                  transform="matrix(1,0,0,1,0,5)"
+                >
+                  <path
+                    d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                    id="top"
+                  />
+                </g>
+                <g
+                  transform="matrix(1,1.22465e-16,1.22465e-16,-1,0.00024296,564.935)"
+                >
+                  <path
+                    d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                    id="bottom"
+                  />
+                </g>
+                <path
+                  d="M390,284.967L420,284.967"
+                  id="middle"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Mobile screen testing renders with default props 1`] = `
+<header
+  class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-17wuhg6-MuiPaper-root-MuiAppBar-root"
+>
+  <div
+    class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 css-1mwms0u-MuiGrid2-root"
+  >
+    <div
+      class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-3 css-p4z6b7-MuiGrid2-root"
+    >
+      <div
+        class="css-70qvj9"
+      >
+        <div
+          class="MuiAvatar-root MuiAvatar-circular css-82kfkh-MuiAvatar-root"
+        >
+          <img
+            alt="Kai Mumford"
+            class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+            src="/img/avatar.png"
+          />
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-pm0sp9-MuiTypography-root"
+        >
+          Kai Mumford
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-9 css-1n7csrm-MuiGrid2-root"
+    >
+      <div
+        style="display: flex; justify-content: flex-end; height: 100%;"
+      >
+        <div
+          class="icons"
+          data-testid="icons-container"
+        >
+          <svg
+            class="inactive"
+            data-testid="hamburger-svg"
+            height="32px"
+            viewBox="0 0 32 42"
+            width="32px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              transform="matrix(1,0,0,1,-389.5,-264.004)"
+            >
+              <g
+                id="arrow_left2"
+              >
+                <g
+                  transform="matrix(1,0,0,1,0,5)"
+                >
+                  <path
+                    d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                    id="top"
+                  />
+                </g>
+                <g
+                  transform="matrix(1,1.22465e-16,1.22465e-16,-1,0.00024296,564.935)"
+                >
+                  <path
+                    d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                    id="bottom"
+                  />
+                </g>
+                <path
+                  d="M390,284.967L420,284.967"
+                  id="middle"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;
