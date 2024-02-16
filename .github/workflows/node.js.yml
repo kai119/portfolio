@@ -32,6 +32,9 @@ jobs:
       - name: Run Linter
         run: npm run lint
 
+      - name: Run prettier
+        run: npm run prettier
+
       - name: Run the Tests
         run: npm test -- --coverage
 

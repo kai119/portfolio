@@ -18,7 +18,7 @@ import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import HamburgerIcon from "./HamburgerIcon";
 import SocialLinks from "./SocialLinks";
-import KaiCV from "../../assets/Kai_Mumford_CV.pdf"
+import KaiCV from "../../assets/Kai_Mumford_CV.pdf";
 
 export default function NavBar() {
   const theme = useTheme();
@@ -125,11 +125,7 @@ export default function NavBar() {
                   alignItems: "center",
                 }}
               >
-                <a
-                  href={KaiCV}
-                  download
-                  target="_self"
-                >
+                <a href={KaiCV} download target="_self">
                   <CardActionArea>
                     <CardContent>
                       <Typography
@@ -232,11 +228,7 @@ export default function NavBar() {
                       alignItems: "center",
                     }}
                   >
-                    <a
-                      href={KaiCV}
-                      download="Test_PDF"
-                      target="_self"
-                    >
+                    <a href={KaiCV} download="Test_PDF" target="_self">
                       <CardActionArea>
                         <CardHeader
                           title="Resume"
