@@ -27,7 +27,9 @@ function SocialLinks(props) {
         justifyContent: "center",
       }}
     >
-      <Typography variant="subtitle2">Find me on</Typography>
+      <Typography color="text.primary" variant={props.textVariant}>
+        Find me on
+      </Typography>
       <Box
         sx={{
           margin: props.boxMargin,
@@ -53,17 +55,21 @@ function SocialLinks(props) {
                 justifyContent: "center",
               }}
             >
-              <CardContent>
-                <Icon>
-                  <img
-                    data-testid={"icon-img" + index}
-                    alt="Social media icon"
-                    src={icon}
-                    height={props.iconSize}
-                    width={props.iconSize}
-                  />
-                </Icon>
-              </CardContent>
+              <Icon
+                sx={{
+                  width: "100%",
+                  height: "100%",
+                  padding: "20%",
+                }}
+              >
+                <img
+                  data-testid={"icon-img" + index}
+                  alt="Social media icon"
+                  src={icon}
+                  height={props.iconSize}
+                  width={props.iconSize}
+                />
+              </Icon>
             </CardActionArea>
           </Card>
         ))}
@@ -76,6 +82,7 @@ SocialLinks.defaultProps = {
   boxMargin: "0",
   cardSize: "30px",
   iconSize: "24px",
+  textVariant: "subtitle2",
 };
 
 export default SocialLinks;

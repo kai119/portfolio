@@ -254,7 +254,8 @@ export default function NavBar() {
                 <SocialLinks
                   boxMargin="3vh 3% 0 3%"
                   cardSize="40px"
-                  iconSize="24px"
+                  iconSize="70px"
+                  textVariant="subtitle2"
                 />
               </Drawer>
             </div>
