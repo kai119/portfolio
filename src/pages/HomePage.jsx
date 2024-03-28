@@ -24,7 +24,12 @@ export default function HomePage() {
       >
         <NavBar />
         {!isMobile && (
-          <Grid container xs={12} sx={{ flexGrow: 1 }}>
+          <Grid
+            container
+            data-testid="homePage-largeScreen-container"
+            xs={12}
+            sx={{ flexGrow: 1 }}
+          >
             <Grid
               xs={7}
               sx={{
@@ -42,6 +47,7 @@ export default function HomePage() {
                 isMobile={isMobile}
               />
               <Box
+                data-testid="homePage-largeScreen-linksBox"
                 sx={{
                   marginTop: isSmallLaptop ? "13vh" : "18vh",
                 }}
@@ -72,7 +78,11 @@ export default function HomePage() {
           </Grid>
         )}
         {isMobile && (
-          <Box container sx={{ flexGrow: 1 }}>
+          <Box
+            container
+            data-testid="homePage-mobile-container"
+            sx={{ flexGrow: 1 }}
+          >
             <Box
               xs={12}
               sx={{

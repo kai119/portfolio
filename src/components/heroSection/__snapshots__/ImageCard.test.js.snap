@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as expected when props are supplied 1`] = `
+<div
+  class="MuiBox-root css-1od5zcq"
+  data-testid="image-card-container"
+>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1n1umfx-MuiPaper-root-MuiCard-root"
+    data-testid="image-card-card"
+  />
+  <img
+    alt="Kai Mumford"
+    data-testid="image-card-img"
+    src="/img/Graduation-removebg.png"
+    style="position: absolute; width: 90px; max-width: 100px;"
+  />
+</div>
+`;
+
+exports[`renders with default props 1`] = `
+<div
+  class="MuiBox-root css-yj4jkr"
+  data-testid="image-card-container"
+>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1rvu781-MuiPaper-root-MuiCard-root"
+    data-testid="image-card-card"
+  />
+  <img
+    alt="Kai Mumford"
+    data-testid="image-card-img"
+    src="/img/Graduation-removebg.png"
+    style="position: absolute; width: 29vw;"
+  />
+</div>
+`;

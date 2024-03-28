@@ -31,6 +31,7 @@ function IntroText(props) {
   return (
     <div>
       <Typography
+        data-testid="intro-hello-world-text"
         color="text.secondary"
         variant={subtitleSize}
         sx={{ marginTop: !props.isMobile && "80px" }}

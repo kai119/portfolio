@@ -67,7 +67,7 @@ exports[`Desktop screen testing renders with default props 1`] = `
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-86l623-MuiPaper-root-MuiCard-root"
         >
           <a
-            download=""
+            download="Kai Mumford CV"
             href="Kai_Mumford_CV.pdf"
             target="_self"
           >

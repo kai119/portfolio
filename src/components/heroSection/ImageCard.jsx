@@ -11,7 +11,7 @@ function ImageCard(props) {
 
   const onImgLoad = ({ target: img }) => {
     props.setImgHeight(img.offsetHeight);
-    setImgWidth(img.offsetWidth, () => console.log(imgWidth));
+    setImgWidth(img.offsetWidth);
   };
 
   useEffect(() => {
@@ -22,6 +22,7 @@ function ImageCard(props) {
 
   return (
     <Box
+      data-testid="image-card-container"
       sx={{
         display: "flex",
         alignItems: "flex-end",
@@ -31,6 +32,7 @@ function ImageCard(props) {
       }}
     >
       <Card
+        data-testid="image-card-card"
         sx={{
           background: theme.palette.card.main,
           boxShadow: 2,
@@ -41,6 +43,7 @@ function ImageCard(props) {
         }}
       ></Card>
       <img
+        data-testid="image-card-img"
         alt="Kai Mumford"
         onLoad={onImgLoad}
         ref={imgRef}

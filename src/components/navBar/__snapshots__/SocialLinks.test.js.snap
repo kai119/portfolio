@@ -5,27 +5,29 @@ exports[`correctly adjusts the width and height of the icon based on props 1`] =
   class="MuiBox-root css-u6v8er"
 >
   <h6
-    class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+    class="MuiTypography-root MuiTypography-subtitle2 css-1vhmb89-MuiTypography-root"
   >
     Find me on
   </h6>
   <div
     class="MuiBox-root css-1lm37yk"
   >
-    <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+    <a
+      href="https://www.linkedin.com/in/kai-mumford-2990b8176/"
+      rel="noreferrer"
+      target="_blank"
     >
-      <button
-        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
-        tabindex="0"
-        type="button"
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
       >
-        <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
         >
           <span
             aria-hidden="true"
-            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-228qhf-MuiIcon-root"
           >
             <img
               alt="Social media icon"
@@ -35,29 +37,31 @@ exports[`correctly adjusts the width and height of the icon based on props 1`] =
               width="50px"
             />
           </span>
-        </div>
-        <span
-          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
-        />
-        <span
-          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-        />
-      </button>
-    </div>
-    <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+          <span
+            class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </a>
+    <a
+      href="https://github.com/kai119"
+      rel="noreferrer"
+      target="_blank"
     >
-      <button
-        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
-        tabindex="0"
-        type="button"
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
       >
-        <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
         >
           <span
             aria-hidden="true"
-            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-228qhf-MuiIcon-root"
           >
             <img
               alt="Social media icon"
@@ -67,29 +71,31 @@ exports[`correctly adjusts the width and height of the icon based on props 1`] =
               width="50px"
             />
           </span>
-        </div>
-        <span
-          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
-        />
-        <span
-          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-        />
-      </button>
-    </div>
-    <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+          <span
+            class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </a>
+    <a
+      href="mailto:kai.mumford@gmail.com?subject=Portfolio%20Enquiry"
+      rel="noreferrer"
+      target="_blank"
     >
-      <button
-        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
-        tabindex="0"
-        type="button"
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
       >
-        <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
         >
           <span
             aria-hidden="true"
-            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-228qhf-MuiIcon-root"
           >
             <img
               alt="Social media icon"
@@ -99,15 +105,15 @@ exports[`correctly adjusts the width and height of the icon based on props 1`] =
               width="50px"
             />
           </span>
-        </div>
-        <span
-          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
-        />
-        <span
-          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-        />
-      </button>
-    </div>
+          <span
+            class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </a>
   </div>
 </div>
 `;
@@ -117,27 +123,29 @@ exports[`renders with default props 1`] = `
   class="MuiBox-root css-u6v8er"
 >
   <h6
-    class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+    class="MuiTypography-root MuiTypography-subtitle2 css-1vhmb89-MuiTypography-root"
   >
     Find me on
   </h6>
   <div
     class="MuiBox-root css-1lm37yk"
   >
-    <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+    <a
+      href="https://www.linkedin.com/in/kai-mumford-2990b8176/"
+      rel="noreferrer"
+      target="_blank"
     >
-      <button
-        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
-        tabindex="0"
-        type="button"
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
       >
-        <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
         >
           <span
             aria-hidden="true"
-            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-228qhf-MuiIcon-root"
           >
             <img
               alt="Social media icon"
@@ -147,29 +155,31 @@ exports[`renders with default props 1`] = `
               width="24px"
             />
           </span>
-        </div>
-        <span
-          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
-        />
-        <span
-          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-        />
-      </button>
-    </div>
-    <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+          <span
+            class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </a>
+    <a
+      href="https://github.com/kai119"
+      rel="noreferrer"
+      target="_blank"
     >
-      <button
-        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
-        tabindex="0"
-        type="button"
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
       >
-        <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
         >
           <span
             aria-hidden="true"
-            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-228qhf-MuiIcon-root"
           >
             <img
               alt="Social media icon"
@@ -179,29 +189,31 @@ exports[`renders with default props 1`] = `
               width="24px"
             />
           </span>
-        </div>
-        <span
-          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
-        />
-        <span
-          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-        />
-      </button>
-    </div>
-    <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
+          <span
+            class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </a>
+    <a
+      href="mailto:kai.mumford@gmail.com?subject=Portfolio%20Enquiry"
+      rel="noreferrer"
+      target="_blank"
     >
-      <button
-        class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
-        tabindex="0"
-        type="button"
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1qr7kfj-MuiPaper-root-MuiCard-root"
       >
-        <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root css-x7xklv-MuiButtonBase-root-MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
         >
           <span
             aria-hidden="true"
-            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-kp9ftd-MuiIcon-root"
+            class="material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-228qhf-MuiIcon-root"
           >
             <img
               alt="Social media icon"
@@ -211,15 +223,15 @@ exports[`renders with default props 1`] = `
               width="24px"
             />
           </span>
-        </div>
-        <span
-          class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
-        />
-        <span
-          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-        />
-      </button>
-    </div>
+          <span
+            class="MuiCardActionArea-focusHighlight css-1v2exvi-MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </a>
   </div>
 </div>
 `;
