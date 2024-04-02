@@ -125,7 +125,7 @@ export default function NavBar() {
                   alignItems: "center",
                 }}
               >
-                <a href={KaiCV} download target="_self">
+                <a href={KaiCV} download="Kai Mumford CV" target="_self">
                   <CardActionArea>
                     <CardContent>
                       <Typography
@@ -228,7 +228,7 @@ export default function NavBar() {
                       alignItems: "center",
                     }}
                   >
-                    <a href={KaiCV} download="Test_PDF" target="_self">
+                    <a href={KaiCV} download="Kai Mumford CV" target="_self">
                       <CardActionArea>
                         <CardHeader
                           title="Resume"
@@ -254,7 +254,8 @@ export default function NavBar() {
                 <SocialLinks
                   boxMargin="3vh 3% 0 3%"
                   cardSize="40px"
-                  iconSize="24px"
+                  iconSize="70px"
+                  textVariant="subtitle2"
                 />
               </Drawer>
             </div>

@@ -2,7 +2,6 @@ import {
   Box,
   Card,
   CardActionArea,
-  CardContent,
   Icon,
   Typography,
   useTheme,
@@ -16,7 +15,20 @@ import LinkedinSvg from "../../assets/LinkedinIcon.svg";
 function SocialLinks(props) {
   const theme = useTheme();
 
-  const icons = [LinkedinSvg, GithubSvg, EmailSvg];
+  const icons = [
+    {
+      icon: LinkedinSvg,
+      link: "https://www.linkedin.com/in/kai-mumford-2990b8176/",
+    },
+    {
+      icon: GithubSvg,
+      link: "https://github.com/kai119",
+    },
+    {
+      icon: EmailSvg,
+      link: "mailto:kai.mumford@gmail.com?subject=Portfolio%20Enquiry",
+    },
+  ];
 
   return (
     <Box
@@ -27,7 +39,9 @@ function SocialLinks(props) {
         justifyContent: "center",
       }}
     >
-      <Typography variant="subtitle2">Find me on</Typography>
+      <Typography color="text.primary" variant={props.textVariant}>
+        Find me on
+      </Typography>
       <Box
         sx={{
           margin: props.boxMargin,
@@ -37,35 +51,41 @@ function SocialLinks(props) {
         }}
       >
         {icons.map((icon, index) => (
-          <Card
-            key={"icon-card-" + index}
-            sx={{
-              background: theme.palette.card.main,
-              boxShadow: 2,
-            }}
-          >
-            <CardActionArea
+          <a href={icon.link} target="_blank" rel="noreferrer">
+            <Card
+              key={"icon-card-" + index}
               sx={{
-                width: props.cardSize,
-                height: props.cardSize,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                background: theme.palette.card.main,
+                boxShadow: 2,
               }}
             >
-              <CardContent>
-                <Icon>
+              <CardActionArea
+                sx={{
+                  width: props.cardSize,
+                  height: props.cardSize,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <Icon
+                  sx={{
+                    width: "100%",
+                    height: "100%",
+                    padding: "20%",
+                  }}
+                >
                   <img
                     data-testid={"icon-img" + index}
                     alt="Social media icon"
-                    src={icon}
+                    src={icon.icon}
                     height={props.iconSize}
                     width={props.iconSize}
                   />
                 </Icon>
-              </CardContent>
-            </CardActionArea>
-          </Card>
+              </CardActionArea>
+            </Card>
+          </a>
         ))}
       </Box>
     </Box>
@@ -76,6 +96,7 @@ SocialLinks.defaultProps = {
   boxMargin: "0",
   cardSize: "30px",
   iconSize: "24px",
+  textVariant: "subtitle2",
 };
 
 export default SocialLinks;
