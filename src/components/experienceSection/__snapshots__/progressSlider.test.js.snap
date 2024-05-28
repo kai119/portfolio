@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders children within component 1`] = `
+<div
+  class="progress-and-content"
+>
+  <div
+    class="progress-wrapper"
+  >
+    <div
+      class="progress-and-title"
+    >
+      <h4
+        class="MuiTypography-root MuiTypography-h4 css-1f9i0tk-MuiTypography-root"
+      >
+        Experience
+      </h4>
+      <div
+        class="progress"
+      >
+        <div
+          class="outer-circle-top"
+        >
+          <div
+            class="inner-circle-top"
+          />
+        </div>
+        <div
+          class="progress-container"
+        >
+          <div
+            class="progress-bar"
+            style="height: 0%;"
+          />
+        </div>
+        <div
+          class="outer-circle-bottom"
+          style="background: rgb(204, 204, 204);"
+        >
+          <div
+            class="inner-circle-bottom"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    id="content"
+  >
+    <div
+      class="MuiBox-root css-1ldk8k1"
+      data-testid="progress-contentBox"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders with default props 1`] = `
+<div
+  class="progress-and-content"
+>
+  <div
+    class="progress-wrapper"
+  >
+    <div
+      class="progress-and-title"
+    >
+      <h4
+        class="MuiTypography-root MuiTypography-h4 css-1f9i0tk-MuiTypography-root"
+      >
+        Experience
+      </h4>
+      <div
+        class="progress"
+      >
+        <div
+          class="outer-circle-top"
+        >
+          <div
+            class="inner-circle-top"
+          />
+        </div>
+        <div
+          class="progress-container"
+        >
+          <div
+            class="progress-bar"
+            style="height: 0%;"
+          />
+        </div>
+        <div
+          class="outer-circle-bottom"
+          style="background: rgb(204, 204, 204);"
+        >
+          <div
+            class="inner-circle-bottom"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    id="content"
+  />
+</div>
+`;

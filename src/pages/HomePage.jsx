@@ -1,13 +1,16 @@
 import React, { useState } from "react";
-import { Box } from "@mui/material";
+import { Box, Divider } from "@mui/material";
+import { useTheme } from "@emotion/react";
 import Grid from "@mui/material/Unstable_Grid2";
 import NavBar from "../components/navBar/NavBar";
 import SocialLinks from "../components/navBar/SocialLinks";
 import { useMediaQuery } from "react-responsive";
 import ImageCard from "../components/heroSection/ImageCard";
 import IntroText from "../components/heroSection/IntroText";
+import ProgressSlider from "../components/experienceSection/progressSlider";
 
 export default function HomePage() {
+  const theme = useTheme();
   const isSmallLaptop = useMediaQuery({ minWidth: 1072, maxHeight: 900 });
   const isTablet = useMediaQuery({ minWidth: 1000, maxWidth: 1072 });
   const isMobile = useMediaQuery({ maxWidth: 1000 });
@@ -132,6 +135,12 @@ export default function HomePage() {
           </Box>
         )}
       </Box>
+      <Divider variant="middle" sx={{color: theme.palette.text.disabled, marginBottom: "10vh"}}/>
+      {!isMobile && (
+        <Box>
+          <ProgressSlider isMobile={isMobile} content={<Box sx={{margin: "2000px 0"}} />} />
+        </Box>
+      )}
     </>
   );
 }
