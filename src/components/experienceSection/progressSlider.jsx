@@ -1,11 +1,10 @@
-import React  from "react";
-import "./progressSlider.css"
-import {Typography} from "@mui/material";
+import React from "react";
+import "./progressSlider.css";
+import { Typography } from "@mui/material";
 import { withTheme } from "@emotion/react";
 
-
 class ProgressSlider extends React.Component {
-    constructor(props) {
+  constructor(props) {
     super(props);
     this.state = {
       scrolled: 0,
@@ -34,7 +33,7 @@ class ProgressSlider extends React.Component {
     console.log(scrolled);
     const circleScrolledStyle = Math.max(
       (scrollPercent - 0.87) / (1 - 0.87),
-      0
+      0,
     );
 
     this.setState({
@@ -61,7 +60,13 @@ class ProgressSlider extends React.Component {
       <div className="progress-and-content">
         <div className="progress-wrapper">
           <div className="progress-and-title">
-            <Typography variant="h4" color={this.props.theme.palette.primary.main} sx={{marginBottom: "10vh"}}>Experience</Typography>
+            <Typography
+              variant="h4"
+              color={this.props.theme.palette.primary.main}
+              sx={{ marginBottom: "10vh" }}
+            >
+              Experience
+            </Typography>
             <div className="progress">
               <div className="outer-circle-top">
                 <div className="inner-circle-top" />
@@ -76,10 +81,7 @@ class ProgressSlider extends React.Component {
             </div>
           </div>
         </div>
-        <div id="content">
-            {this.props.content}
-        </div>
-          
+        <div id="content">{this.props.content}</div>
       </div>
     );
   }
@@ -89,12 +91,12 @@ ProgressSlider.defaultProps = {
   theme: {
     palette: {
       primary: {
-        main: "#66fcf1"
-      }
-    }
+        main: "#66fcf1",
+      },
+    },
   },
   content: "",
-}
+};
 
 const ProgressSliderWithStyles = withTheme(ProgressSlider);
 export default ProgressSliderWithStyles;

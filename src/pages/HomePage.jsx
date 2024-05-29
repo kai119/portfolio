@@ -135,10 +135,16 @@ export default function HomePage() {
           </Box>
         )}
       </Box>
-      <Divider variant="middle" sx={{color: theme.palette.text.disabled, marginBottom: "10vh"}}/>
+      <Divider
+        variant="middle"
+        sx={{ color: theme.palette.text.disabled, marginBottom: "10vh" }}
+      />
       {!isMobile && (
         <Box>
-          <ProgressSlider isMobile={isMobile} content={<Box sx={{margin: "2000px 0"}} />} />
+          <ProgressSlider
+            isMobile={isMobile}
+            content={<Box sx={{ margin: "2000px 0" }} />}
+          />
         </Box>
       )}
     </>
